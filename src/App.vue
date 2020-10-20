@@ -28,7 +28,7 @@
     }
 
     .form {
-        max-width: 350px;
+        max-width: 500px;
         padding: 50px 30px 30px;
         margin: 50px auto 30px;
         background: white;
@@ -79,7 +79,6 @@
         select {
             -webkit-appearance: none;
             -moz-appearance: none;
-            -ms-appearance: none;
             appearance: none;
             outline: 0;
             box-shadow: none;
@@ -258,7 +257,7 @@
                 transform: translateY(-41px);
                 display: inline-block;
                 cursor: pointer;
-                padding: 0px 15px;
+                padding: 0 15px;
                 line-height: 34px;
                 border: 1px solid #999;
                 border-radius: 6px;
@@ -275,8 +274,10 @@
     }
 
     .form-btn {
-        width: 95%;
+        width: 96%;
         display: inline-block;
+        left: 50%;
+        margin-right: -50%;
         cursor: pointer;
         line-height: 34px;
         border: 0;
